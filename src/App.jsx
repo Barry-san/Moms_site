@@ -2,6 +2,7 @@ import Navbar from "./Navigation";
 import Contact from "./Contact";
 import Hero from "./Hero";
 import "./index.css";
+import Founder from "./Founder";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <Contact />
       <Hero />
+      <Founder />
     </div>
   );
 }
