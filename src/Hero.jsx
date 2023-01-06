@@ -7,7 +7,7 @@ function Hero() {
         </h1>
       </section>
       <section>
-        <p className="text-lg">
+        <p className="md:text-lg text-base">
           God is able Ventures is your one-stop shop for all your beverage
           needs. We sell a wide variety of beverages in both wholesale and
           retail quantities. Whether you are a restaurant owner looking to stock
