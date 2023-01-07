@@ -10,7 +10,7 @@ function Products() {
         </h2>
         <p className="md:text-lg text-base font-Barlow">
           We offer a wide variety of drinks produced by Pepsi-co,Coca-cola, and
-          bigi driks, including, but not limited to Coke, Fanta, Sprite, 5alive
+          Bigi drinks, including, but not limited to Coke, Fanta, Sprite, 5alive
           Pulpy-orange, Pepsi, Mirinda, 7up, Fearless, and much more. All
           products are available in retail and wholesale while stocks last.
         </p>
