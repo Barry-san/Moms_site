@@ -5,6 +5,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 .contact::before {
   content: "";
   width: 100%;
@@ -42,4 +46,8 @@
 ::-webkit-scrollbar {
   background-color: white;
   border: 1px solid blue;
+}
+
+.svg:hover {
+  fill: blue;
 }

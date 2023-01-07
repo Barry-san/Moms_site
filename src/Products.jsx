@@ -8,7 +8,7 @@ function Products() {
         <h2 className="text-2xl font-Oswald font-bold uppercase md:text-4xl lg:text-5xl">
           OUR PRODUCTS
         </h2>
-        <p>
+        <p className="md:text-lg text-base font-Barlow">
           We offer a wide variety of drinks produced by Pepsi-co,Coca-cola, and
           bigi driks, including, but not limited to Coke, Fanta, Sprite, 5alive
           Pulpy-orange, Pepsi, Mirinda, 7up, Fearless, and much more. All

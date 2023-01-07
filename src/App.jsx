@@ -4,6 +4,7 @@ import Hero from "./Hero";
 import "./index.css";
 import Founder from "./Founder";
 import Products from "./Products";
+import Address from "./Address";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Hero />
       <Founder />
       <Products />
+      <Address />
     </div>
   );
 }
