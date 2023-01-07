@@ -1,3 +1,5 @@
+import beer from "../public/undraw_having_fun_re_vj4h.svg";
+
 function Hero() {
   return (
     <div className="p-8 flex gap-8 flex-col">
@@ -6,8 +8,11 @@ function Hero() {
           God Is Able Ventures
         </h1>
       </section>
+      <section className="flex items-center justify-center p-8">
+        <img src={beer} alt="" />
+      </section>
       <section>
-        <p className="md:text-lg text-base">
+        <p className="md:text-lg text-base font-Barlow">
           God is able Ventures is your one-stop shop for all your beverage
           needs. We sell a wide variety of beverages in both wholesale and
           retail quantities. Whether you are a restaurant owner looking to stock

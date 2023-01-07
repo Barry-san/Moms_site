@@ -1,3 +1,4 @@
+import mama from "../public/IMG_0742 2.jpg";
 function Founder() {
   return (
     <div className="p-8 flex gap-8 flex-col">
@@ -7,7 +8,7 @@ function Founder() {
         </h2>
       </section>
       <section>
-        <p lassName="md:text-lg text-base">
+        <p className="md:text-lg text-base font-Barlow">
           God is able ventures was fonded in 2018 by Oyeyemi Olufunke with the
           vision of quenching the thirsts of thousands of mouths and providing
           people with a variety of beverages at competitive prices. She is proud
@@ -15,7 +16,7 @@ function Founder() {
         </p>
       </section>
       <section>
-        <img src="" alt="Mama Barakah" />
+        <img src={mama} alt="Mama Barakah" className="max-w-full md:hidden" />
       </section>
     </div>
   );
