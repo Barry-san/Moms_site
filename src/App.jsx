@@ -7,7 +7,7 @@ import Products from "./Products";
 
 function App() {
   return (
-    <div className="App min-w-full min-h-screen dark:bg-slate-800 dark:text-white">
+    <div className="App max-w-full min-h-screen dark:bg-slate-800 dark:text-white">
       <Navbar />
       <Contact />
       <Hero />

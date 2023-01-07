@@ -12,11 +12,11 @@ function Founder() {
           God is able ventures was fonded in 2018 by Oyeyemi Olufunke with the
           vision of quenching the thirsts of thousands of mouths and providing
           people with a variety of beverages at competitive prices. She is proud
-          mother of three, and a sleeper in her spare time.
+          mother of three, and extremely business oriented.
         </p>
       </section>
-      <section>
-        <img src={mama} alt="Mama Barakah" className="max-w-full md:hidden" />
+      <section className="flex justify-center">
+        <img src={mama} alt="Mama Barakah" className="max-w-full md:w-1/2" />
       </section>
     </div>
   );
