@@ -11,15 +11,13 @@ function Products() {
         <p className="md:text-lg text-base font-Barlow">
           We offer a wide variety of drinks produced by Pepsi-co,Coca-cola, and
           Bigi drinks, including, but not limited to Coke, Fanta, Sprite, 5alive
-          Pulpy-orange, Pepsi, Mirinda, 7up, Fearless, and much more. All
-          products are available in retail and wholesale while stocks last.
+          Pulpy-orange, Pepsi, Mirinda, 7up, Fearless. All products are
+          available in retail and wholesale while stocks last.
         </p>
       </section>
-      <section className="product-gtimages grid gap-8 grid-flow-row md:grid-flow-col w-full place-items-center">
-        <div className="rounded-full bg-coke bg-cover bg-center w-40 h-40"></div>
-        <div className="rounded-full bg-pepsi bg-cover bg-right w-40 h-40">
-          {/* <img src={coke} alt="" /> */}
-        </div>
+      <section className=" grid gap-8 grid-flow-row md:grid-flow-col w-full place-items-center">
+        <div className="product rounded-full bg-coke bg-cover bg-center w-40 h-40"></div>
+        <div className="product rounded-full bg-pepsi bg-cover bg-right w-40 h-40"></div>
       </section>
     </div>
   );
